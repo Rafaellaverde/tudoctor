@@ -1,0 +1,30 @@
+// conexion
+const database = "db_segunda";
+use (database);
+
+// colecciones y documentos
+db.Perfil.insertOne({
+    nombrePerfil:"Administrador"
+});
+
+db.Perfil.insertOne({
+    nombrePerfil:"Vendedor",
+    estadoPerfil:1
+});
+
+db.Perfil.insertOne({
+    nombrePerfil:"Vendedor",
+    fechaCreacionPerfil:new Date()
+});
+
+db.Perfil.insertOne({
+    ramon:"Vendedor",
+    kiko: 1900.57
+});
+
+db.Perfil.insertOne({
+    factura:"Vendedor",
+    pelicula: 1900.57,
+    citamedica:"esta es mi cita",
+    masinfo:true
+});

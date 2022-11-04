@@ -1,0 +1,35 @@
+
+
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+	  "workbench.colorTheme": "Visual Studio Dark",
+	  "restoreTerminals.terminals": [
+		{
+		  "splitTerminals": [
+			{
+			  "name": "build",
+			  "commands": ["cls"],
+			  "color": "red"
+			},
+			{
+			  "name": "dev",
+			  "commands": ["cls"]
+			}
+		  ]
+		},
+		{
+		  "splitTerminals": [
+			{
+			  "name": "cmd",
+			  "commands": ["cls"],
+			}
+		  ]
+		}
+	  ]
+	}
+  }
